@@ -1,0 +1,451 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+@font-face {
+    font-family: 'Poppins-Black' ;
+    src: url(font/Poppins-Black.woff) format(woff);
+}
+@font-face {
+    font-family: 'Poppins-Medium' ;
+    src: url(font/Poppins-Medium.woff) format(woff);
+}
+@font-face {
+    font-family: 'Poppins-Regular' ;
+    src: url(font/Poppins-Regular.woff) format(woff);
+}
+@font-face {
+    font-family: 'Poppins-MediumItalic' ;
+    src: url(font/Poppins-MediumItalic.woff) format(woff);
+}
+@font-face {
+    font-family: 'Poppins-SemiBold' ;
+    src: url(font/Poppins-SemiBold.woff) format(woff);
+}
+
+body{
+    min-height: 100vh;
+    font-family: 'Poppins-Regular' ;
+    background-color: papayawhip;
+    background-image: url(Colored\ Shapes\ \(1\).svg);
+    
+}
+img{
+    display: block;
+    
+}
+nav{
+    top: 0;
+}
+.navbar-toggler-icon{
+    border: none;
+}
+.button__navbar__toggler{
+    border: none;
+    outline: none;
+}
+.navbar-brand{
+    font-family: 'Poppins-MediumItalic' ;
+    color: white;
+}
+.navbar__body{
+    background-color: black;
+   
+}
+.nav-link{
+    color: gray;
+    font-size: larger;
+    font-family: 'Poppins-SemiBold' ;
+}
+.offcanvas-body{
+    background-color: #F7F8FC;
+}
+.offcanvas-title{
+    font-family: 'Poppins-Black' ;
+    text-transform: uppercase;
+}
+
+.container__overlay{
+    background-color: rgba(0, 0, 0, 0.521);
+    height: inherit;
+
+}
+.background__img{
+    background-image: url(dubai.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+    
+      
+    
+}
+
+.main__content1{
+    text-transform: capitalize;
+    padding-top: 100px;
+    padding-left: 1rem;
+    color: white;  
+    
+}
+.main__content1 h1{
+    font-family: 'Poppins-Black';
+    text-transform: uppercase; 
+    font-size: 2.5rem;  
+}
+.main__content1 p{
+    font-size: 1rem;
+    margin-top: 25px;
+    margin-bottom: 45px;
+}
+.worldout{
+    color: black;
+}
+.button__position{
+    padding-bottom: 30px;
+}
+.button{
+    background-color: black;
+    border-radius: 5px;
+    border: none;
+    
+    text-align: center;
+    height: 80px;
+    width: 150px;
+}
+.button a {
+    text-decoration: none;
+    color: white;
+}
+
+.main__content2__body{
+    text-align: center;
+    font-family: 'Poppins-Medium' ;
+    text-transform: capitalize;
+    background-image: url(Colored\ Shapes\ \(1\).svg);
+}
+
+
+.main__content2__body h4{
+    font-family: 'Poppins-Black' ;
+    text-transform: capitalize;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    
+}
+.main__content2__body p{
+   padding-left: 10px;
+   font-family: 'Poppins-SemiBold' ;
+}
+
+.main__content2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 50px;
+    background-color: white;
+}
+
+.box{
+    background-color: white;
+    text-align: center;
+    width: 90%;
+    padding-top: 50px;
+    min-height: 250px;
+}
+.box h3{
+    font-family: 'Poppins-Medium' ;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    
+}
+.del__style{
+    font-size: 20px;
+    padding: 6px;
+    
+}
+.no__del{
+    background-color: gainsboro;
+    width: 200px;
+    font-size: 20px;
+    padding: 6px;
+    border-radius: 8px;
+}
+.article__main1{
+    text-align: center;
+    text-transform: capitalize;
+}
+.article__main1 h3{
+    font-family: 'Poppins-Black' ;
+    padding-top: 30px;
+}
+.article__main1 p{
+    font-family: 'Poppins-SemiBold' ;
+    padding-bottom: 30px;
+}
+.article__main1__card-title{
+    font-family: 'Poppins-Black' ;
+    text-transform: capitalize;
+}
+.map__overlay{
+    background-color: blue;
+}
+.main__content3{
+    background-image: url(statue\ \(2\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top right;
+    
+}
+.container__main__content3{
+    height: 20vh;
+    
+}
+.container__main__content3 p{
+    font-family: 'Poppins-Black' ;
+    text-transform: capitalize;
+    color: white;
+    padding-top: 60px;
+    letter-spacing: 2px;
+}
+.main__content4{
+    display: flex;
+    flex-direction: column;
+    text-transform: capitalize;
+    background-image: url(Colored\ Shapes\ \(1\).svg);
+    text-align: center;
+}
+.main__content4 h3{
+    font-family: 'Poppins-Black' ;
+    margin-top: 70px;    
+}
+.main__content4 p{
+    font-family: 'Poppins-SemiBold' ;
+}
+footer{
+    background-color: rgb(243, 235, 235);
+    color: rgb(90, 84, 84);
+    position: sticky;
+    
+}
+.footer__container{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    
+
+}
+.f-box h1, h4{
+    text-transform: capitalize;
+    font-family: 'Poppins-Black' ;
+   
+}
+.f-box ul{
+    list-style-type: none;
+}
+.f-box li a{
+    text-decoration: none;
+    color: rgb(43, 40, 40);
+}
+.f-box p{
+    text-transform: capitalize;
+    
+    
+}
+
+.f-box input{
+    border: none;
+    height: 50px;
+    border-radius: 20px;
+    outline-color: burlywood;
+}
+.f-box button{
+  background-color: #F7F8FC;
+  height: 50px;
+  border: none;
+  padding: 10px;
+  border-radius: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 50px;
+}
+.f-box input::placeholder{
+    padding: 5px;
+    padding-left: 10px;
+    text-transform: capitalize;
+}
+
+.f-box li a:hover{
+    text-decoration: none;
+    color: #222224;
+}
+
+
+
+
+
+
+@media screen and (min-width: 576px) {
+    
+   
+    .background__img{
+        background-image: url(dubai.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top center;
+    }
+      
+    .main__content2{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        margin-bottom: 50px;
+        background-color: white;
+    }
+    
+    .main__content3{
+        background-image: url(statue\ \(2\).jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        
+    }
+          
+        
+        .container__main__content3 p{
+            font-size: 1.5rem;
+            padding-top: 25px;
+            
+            
+        }
+
+       
+}
+
+
+/* ||LARGE */
+@media screen and (min-width: 992px) {
+	
+    nav{
+        top: 0;
+    }
+    .navbar-toggler-icon{
+        border: none;
+    }
+    .button__navbar__toggler{
+        border: none;
+        outline: none;
+    }
+    .navbar-brand{
+        font-family: 'Poppins-MediumItalic' ;
+        color: white;
+    }
+    .navbar__body{
+        background-color: black;
+       
+    }
+    .nav-link{
+        color: gray;
+        font-size: larger;
+        font-family: 'Poppins-SemiBold' ;
+    }
+   
+    .offcanvas-title{
+        font-family: 'Poppins-Black' ;
+        text-transform: uppercase;
+    }
+    .offcanvas-body{
+        background-color: black;
+    }
+    .main__content2{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 50px;
+
+        
+    }
+    footer{
+        background-color: rgb(243, 235, 235);
+        color: rgb(90, 84, 84);
+        position: sticky;
+        height: 50vh;
+    }
+    .footer__container{
+        display: flex;
+        flex-direction: row;
+        gap: 25px;
+        padding: 20px;
+        
+    
+    }
+    .f-box{
+        margin-top: 30px;
+    }
+    .f-box h1, h4{
+        text-transform: capitalize;
+        font-family: 'Poppins-Black' ;
+       
+    }
+    .f-box ul{
+        list-style-type: none;
+    }
+    .f-box li a{
+        text-decoration: none;
+        color: rgb(43, 40, 40);
+        line-height: 2.5;
+    }
+    .f-box p{
+        text-transform: capitalize;
+        
+        
+    }
+    
+    .f-box input{
+        border: none;
+        height: 35px;
+        border-radius: 20px;
+        outline-color: burlywood;
+    }
+    .f-box button{
+      background-color: #F7F8FC;
+      height: 50px;
+      border: none;
+      padding: 10px;
+      padding-bottom: 30px;
+      border-radius: 20px;
+      height: 35px;
+    }
+    .f-box input::placeholder{
+        padding: 5px;
+        padding-left: 10px;
+        text-transform: capitalize;
+    }
+    
+    .f-box li a:hover{
+        text-decoration: none;
+        color: #222224;
+    }
+    
+	
+}
+
+
+/* ||XL */
+
+@media screen and (min-width: 1200px) {
+	
+	
+}
